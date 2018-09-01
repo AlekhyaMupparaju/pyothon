@@ -1,7 +1,7 @@
-n = int(raw_input())
+M= int(raw_input())
 a=list(map(int,str(n)))
-b=list(map(lambda x:x**3,a))
-if(sum(b)==n):
-    print("yes")
+b=list(map(lambda x:x**3,b))
+if(sum(c)==n):
+    print "yes"
 else:
-    print(" no")
+    print "no"
