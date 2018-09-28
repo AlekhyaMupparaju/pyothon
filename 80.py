@@ -1,8 +1,9 @@
 s=int(raw_input())
-b=[]
-while s!=0:
-    c=s%10
-    if c%2==1:
-        b.append(c)
+digits = []
+while s > 0:
+    r = s % 10
+    if r & 1 != 0:
+        digits.append(str(r))
     s=s/10
-print str(b[::-1]).replace('[',"").replace(']',"")
+digits = reversed(digits)
+print (" ".join(digits))
