@@ -10,3 +10,6 @@ class py_solution:
         return int_val
 
 print(py_solution().roman_to_int('VI'))
+print(py_solution().roman_to_int('IX'))
+print(py_solution().roman_to_int('X'))
+print(py_solution().roman_to_int('XI'))
